@@ -6,13 +6,13 @@ module.exports = {
   entry: './client/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public'),
     publicPath: '/',
     clean: true,
   },
   devtool: 'inline-source-map',
   devServer: {
-    static: './dist',
+    static: './public',
     proxy: {
       '/api': 'http://localhost:3000',
     },
