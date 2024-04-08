@@ -1,29 +1,62 @@
-# hack23
+# SODOTO - Share One, Do One, Teach One
 
-After cloning repo, run npm install in terminal.
+Welcome to SODOTO, a platform designed for learners to share, reinforce, and teach their knowledge with others. Whether you're here to learn, teach, or simply share your thoughts, SODOTO provides an interactive space for knowledge exchange.
 
-For the database, replace the mongoAtlasUri variable by the URI provided in Slack.
+## Getting Started
 
-Run 'npm run dev' to view
-project in dev mode.
+1. **Clone Repository:** After cloning the repository, navigate to the project directory in your terminal.
 
-# Pull Request Commands
+2. **Install Dependencies:** Run `npm install` in your terminal to install the necessary dependencies.
 
-1. Create your own branch. Make commits. When ready to push,
-2. git checkout dev
-3. git pull origin dev
-4. git checkout [yourbranch]
-5. git merge dev
-6. git push origin [yourbranch]
-7. Create pull request from [yourbranch] to dev
-8. Let a reviewer know you need PR approved.
+3. **Database Configuration:** Replace the `mongoAtlasUri` variable with the URI provided in Slack for database connectivity.
+
+4. **Run in Development Mode:** Execute `npm run dev` to start the project in development mode.
+
+## Pull Request Workflow
+
+- Create your own branch and make commits for your changes.
+- When ready to push, follow these steps:
+    ```
+    git checkout dev
+    git pull origin dev
+    git checkout [yourbranch]
+    git merge dev
+    git push origin [yourbranch]
+    ```
+- Create a pull request from your branch to `dev`.
+- Notify a reviewer for PR approval.
 
 ## How It Works
 
-### If you are here to learn…
+### For Learners
 
-Explore a world of knowledge by searching for your favorite topics on the home page. Discover intriguing subjects, and delve into comprehensive teaching demonstrations. Watch engaging videos or read through instructive content. Don't forget to actively participate—leave feedback or ask questions in the comments to enhance your learning experience.
+- Explore a world of knowledge by searching for your favorite topics on the home page.
+- Discover intriguing subjects and delve into comprehensive teaching demonstrations.
+- Watch engaging videos or read through instructive content.
+- Actively participate by leaving feedback or asking questions in the comments to enhance your learning experience.
 
-### If you are here to reinforce your own learning by teaching it to others...
+### For Teachers
 
-Take an active role in sharing your knowledge by clicking on "Create New Teaching Demonstration" from the home page. Easily add your content by uploading or linking a video or by crafting a blog-style text description. Be attentive to the community—anticipate questions and feedback in the comments section. Elevate the learning experience for everyone by providing thoughtful responses and fostering ongoing discussion.
+- Take an active role in sharing your knowledge by clicking on "Create New Teaching Demonstration" from the home page.
+- Easily add your content by uploading or linking a video or by crafting a blog-style text description.
+- Be attentive to the community—anticipate questions and feedback in the comments section.
+- Elevate the learning experience for everyone by providing thoughtful responses and fostering ongoing discussion.
+
+### For Sharers
+
+- Share your thoughts and exchange ideas with others in the comments section.
+- Engage in meaningful discussions to enrich the learning experience for all users.
+
+## Technologies Used
+
+- React
+- Bootstrap
+- Cloudinary
+- MongoDB
+- Multer
+- Sass
+- Express
+
+SODOTO was created during a GDI hackathon project where we had limited time to build this application. Here at SODOTO, we believe that true mastery of a subject comes with the ability to teach it to others. Join us in our mission to foster a community of lifelong learners and educators.
+
+Start exploring, learning, teaching, and sharing with SODOTO today!
