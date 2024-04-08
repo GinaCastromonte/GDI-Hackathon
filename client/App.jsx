@@ -12,6 +12,8 @@ import AboutPage from "./containers/AboutPage";
 import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
 import OneTeachingText from "./components/OneTeachingText";
+import Login from "./containers/Login";
+import Signup from "./containers/Signup";
 
 const App = () => {
   return (
@@ -29,7 +31,9 @@ const App = () => {
         <Route path="/learn" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/singlelesson" element={<OneTeachingText />} />
-		<Route path="/learn/:id" element={<TeachingContainer />} />
+        <Route path="/learn/:id" element={<TeachingContainer />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
 
       <Footer></Footer>
